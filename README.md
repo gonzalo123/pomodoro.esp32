@@ -11,6 +11,7 @@ We had a project and we also had a deadline. We must show a working prototype at
 
 ![Blueprint](img/blueprint.png "Blueprint")
 
+
 @penniath and @tatai worked in the Backend. They must be responsible ot the pomodoro timers, listen to MQTT events and create an API for the frontend. The backend also must provide WebSockets to allow real time events within the frontend. They decided to use node and socket for the WebSockets. You can see the source code here: https://github.com/penniath/pomodoro-api
 
 @ibaiimaz started with the frontend. He decided to create an Angular web application listening to socket.io events to show the status of the pomodoro. You can see the source code here: https://github.com/ibaiimaz/Pomoled
@@ -18,6 +19,8 @@ We had a project and we also had a deadline. We must show a working prototype at
 Finaly I worked with the Hardware. I created a prototype with one ESP32, two RGB LEDs, one button, one servo and a couple of resistors.
 
 ![Circuit](img/fritzing.png "Circuit")
+
+![Circuit](img/circuit.png "Circuit")
 
 That's the source code.
 
